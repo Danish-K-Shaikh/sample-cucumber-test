@@ -8,8 +8,8 @@ import { format } from "path";
 // };
 export default {
   requireModule: ["ts-node/register"],
-  require: ["./steps/**/*.ts"],
-  paths: ["./features/*.feature"],
+  require: ["./src/steps/**/*.ts"],
+  paths: ["./src/features/*.feature"],
   format: ["progress-bar", "@cucumber/pretty-formatter"],
   // format: [
   //   "json:./reports/cucumber-report.json", // JSON reporter for detailed info
